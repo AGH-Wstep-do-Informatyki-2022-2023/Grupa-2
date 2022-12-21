@@ -1,7 +1,0 @@
-class Menu(object):
-    state = 0
-    def __init__(self,items,font_color=(0,0,0),select_color=(255,0,0),ttf_font=None,font_size=25):
-        self.font_color = font_color
-        self.select_color = select_color
-        self.items = items
-        self.font = pygame.font.Font(ttf_font,font_size)

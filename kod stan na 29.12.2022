@@ -1,5 +1,3 @@
-```
-
 import pygame
 
 # Constants for the screen size
@@ -96,5 +94,3 @@ while running:
 
 # Quit Pygame
 pygame.quit()
-
-```

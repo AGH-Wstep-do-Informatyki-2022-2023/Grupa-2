@@ -1,0 +1,87 @@
+import pygame
+
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 600
+
+board = [
+    [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+    [1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+    [1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1],
+    [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+    [1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1],
+    [1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1],
+    [1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1],
+    [1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1],
+    [1, 1, 1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1],
+    [1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1],
+    [1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1],
+    [1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1],
+    [1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1],
+    [1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+    [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+]
+
+BLACK = (0, 0, 0)
+YELLOW = pygame.Color(255, 255, 0)  # Yellow color
+WHITE = pygame.Color(255, 255, 255)
+BLUE = pygame.Color(0,0,255)
+
+BOARD_WIDTH = 20
+BOARD_HEIGHT = 15
+
+
+pygame.init()
+
+
+screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+
+
+pygame.display.set_caption("Pac-Man")
+
+
+pacman_x = 61
+pacman_y = 61
+
+
+running = True
+while running:
+    # Handle events
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+
+    keys = pygame.key.get_pressed()
+
+    if keys[pygame.K_LEFT]:
+        pacman_x -= 0.25
+    elif keys[pygame.K_RIGHT]:
+        pacman_x += 0.25
+    elif keys[pygame.K_UP]:
+        pacman_y -= 0.25
+    elif keys[pygame.K_DOWN]:
+        pacman_y += 0.25
+
+    if board[int(pacman_y // 40)][int(pacman_x // 40)] == 1:
+        # If it's a wall, set Pac-Man's position back to the previous position
+        if keys[pygame.K_LEFT]:
+            pacman_x += 0.25
+        elif keys[pygame.K_RIGHT]:
+            pacman_x -= 0.25
+        elif keys[pygame.K_UP]:
+            pacman_y += 0.25
+        elif keys[pygame.K_DOWN]:
+            pacman_y -= 0.25
+
+    screen.fill(BLACK)
+
+    for i in range(BOARD_WIDTH):
+        for j in range(BOARD_HEIGHT):
+            if board[j][i] == 1:
+                rect = pygame.Rect(i * 40, j * 40, 40, 40)
+                pygame.draw.rect(screen, BLUE, rect, 0)
+
+    pygame.draw.circle(screen, YELLOW, (pacman_x, pacman_y), 15)
+
+    pygame.display.update()
+
+pygame.quit()

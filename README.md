@@ -23,7 +23,6 @@ Zadania, które przed naszą grupą - Grupa-2 - do wykonania w najbliższym czas
 
 ### Rozgrywka
 Rozgrywka polega na kontrolowaniu tytułowego Pac-Mana ![pacman](https://user-images.githubusercontent.com/115925925/210133484-67ddf3f1-1fb7-4000-82cf-b5088110fdff.png) który porusza się po labiryncie wypełnionym kulkami. Głównym zadaniem naszego bohatera jest wyczyszczenie planszy ze wszystkich dostępnych na niej kulek. Gdy wykona on swoją misję, przechodzimy (jako gracze) do następnego etapu. Nie jest to jednak takie łatwe, gdyż na naszą postać poluje czterech przeciwników, także poruszających się po planszy gry - Blinky, Pinky, Inky i Clyde - są to popularne duszki. Kiedy, któryś z naszych przeciwników dotknie Pac-Mana, tracimy życie. Cała rozgrywka kończy się, gdy stracimy wszystkie dostępne życia.
-
 ##### Ciekawostka: pierwsza wersja Pac-Mana miała teoretycznie umożliwić graczom nieskończoną rozgrywkę. Niestety, błąd obliczeniowy kończył zmagania na poziomie 255. Wtedy ulegał awarii mechanizm odpowiedzialny za rysowanie owoców. Zamiast standardowych 7 rysował ich... 256. Połowa ekranu pokrywała się losowymi znakami i ukończenie poziomu stawało się niemożliwe!
   
 

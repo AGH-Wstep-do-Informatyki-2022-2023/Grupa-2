@@ -18,7 +18,7 @@ Uczestnicy projektu to:
 Zadania, które przed naszą grupą - Grupa-2 - do wykonania w najbliższym czasie:
 1) Zrobienie zadań z narzędzi informatycznych
 2) Zrobienie zadań z programowania z WDI
-3) Kooperaqcja w celu zrealizowania posczególnych etapów projektu
+3) Kooperacja w celu zrealizowania posczególnych etapów projektu
 4) Końcowe spotkanie, podsumowujące już wykonaną pracę
 5) Bezpośrednie przygotowanie do zaprezentownia napisanego kodu w Python
 

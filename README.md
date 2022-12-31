@@ -1,9 +1,9 @@
 # Grupa-2
 
-##Cel: 
+## Cel: 
 Projektem naszej grupy skupia się na stworzeniu gry na wzór popularnego PacMana.
 
-##Zadania
+## Zadania
 Zadania, które przed naszą grupą - Grupa-2 - do wykonania w najbliższym czasie:
 1) Zrobić narzędzia z WDI
 2) Zrobić zadania z programowania z WDI

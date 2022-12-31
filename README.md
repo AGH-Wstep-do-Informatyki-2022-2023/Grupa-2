@@ -16,9 +16,9 @@ Uczestnicy projektu to:
 
 ### Zadania
 Zadania, które przed naszą grupą - Grupa-2 - do wykonania w najbliższym czasie:
-1) Zrobienie zadań z narzędzi informatycznych
-2) Zrobienie zadań z programowania z WDI
-3) Kooperacja w celu zrealizowania posczególnych etapów projektu
+1) Wykonanie zadań z narzędzi informatycznych
+2) Zrobienie zadań z programowania
+3) Kooperacja w celu zrealizowania poszczególnych etapów projektu
 4) Końcowe spotkanie, podsumowujące już wykonaną pracę
 5) Bezpośrednie przygotowanie do zaprezentownia napisanego kodu w Python
 
@@ -29,7 +29,7 @@ Rozgrywka polega na kontrolowaniu tytułowego Pac-Mana ![pacman](https://user-im
   
 
 ### Inspiracje i pomysły
-Inspiracje i pomysły przy tworzeniu projektu można czerpać z wielu źródeł o to jedno z nich:
+Inspiracje i pomysły przy tworzeniu projektu można czerpać z wielu źródeł, o to jedno z nich:
 [link_PACMAN_na_YouTube](https://www.youtube.com/watch?v=9H27CimgPsQ)
 
 

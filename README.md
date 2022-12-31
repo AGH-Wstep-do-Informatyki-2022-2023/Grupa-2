@@ -3,7 +3,7 @@
 
 
 ### Cel projektu
-Projektem naszej grupy skupia się na stworzeniu gry na wzór popularnego PacMana.
+Nasza grupa o wyżej podanej nazwie ma na celu na stworzenie (napisanie) gry na wzór popularnego Pac-Mana.
 
 
 ### Autorzy gry

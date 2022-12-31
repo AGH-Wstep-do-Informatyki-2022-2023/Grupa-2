@@ -3,7 +3,7 @@
 
 
 ### Cel projektu
-Nasza grupa o wyżej podanej nazwie ma na celu na stworzenie (napisanie) gry na wzór popularnego Pac-Mana.
+Nasza grupa, o wyżej podanej nazwie, ma na celu stworzenie (napisanie) gry na wzór popularnego Pac-Mana.
 
 
 ### Autorzy gry
@@ -16,9 +16,11 @@ Uczestnicy projektu to:
 
 ### Zadania
 Zadania, które przed naszą grupą - Grupa-2 - do wykonania w najbliższym czasie:
-1) Zrobić narzędzia z WDI
-2) Zrobić zadania z programowania z WDI
-3) Współpraca w celu stworzenia projektu
+1) Zrobienie zadań z narzędzi informatycznych
+2) Zrobienie zadań z programowania z WDI
+3) Kooperaqcja w celu zrealizowania posczególnych etapów projektu
+4) Końcowe spotkanie, podsumowujące już wykonaną pracę
+5) Bezpośrednie przygotowanie do zaprezentownia napisanego kodu w Python
 
 
 ### Rozgrywka

@@ -2,8 +2,16 @@
 
 
 
-### Cel
+### Cel projektu
 Projektem naszej grupy skupia się na stworzeniu gry na wzór popularnego PacMana.
+
+
+### Autorzy gry
+Uczestnicy projektu to:
+- Daniel Mazur
+- Szymon Szkarłat
+- Dawid Ryba 
+- Nikodem Jakubowski
 
 
 ### Zadania
